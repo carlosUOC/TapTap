@@ -1,7 +1,6 @@
 ScriptsOnlyBuild:
   usedScripts:
     Assembly-CSharp.dll:
-    - CreditsLoader
     - DifficultyManager
     - Fruit
     - FruitsGridConfig
@@ -31,6 +30,8 @@ ScriptsOnlyBuild:
     - TMPro.TMP_SpriteAsset
     - TMPro.TMP_StyleSheet
     - TMPro.TextMeshProUGUI
+    Unity.Timeline.Editor.dll:
+    - TimelineProjectSettings
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
@@ -127,17 +128,8 @@ ScriptsOnlyBuild:
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
   - assembly: Assembly-CSharp
-    fullTypeName: UiManager
-    methodName: ChangeCurrentPage
-  - assembly: Assembly-CSharp
-    fullTypeName: UiManager
-    methodName: OnBackToMainMenu
-  - assembly: Assembly-CSharp
     fullTypeName: ShopController
     methodName: DecreaseAmount
-  - assembly: Assembly-CSharp
-    fullTypeName: UiManager
-    methodName: OnBackToMainMenu
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnBackToMainMenu
@@ -174,9 +166,6 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnButtonAcceptExitGameClicked
-  - assembly: Assembly-CSharp
-    fullTypeName: UiManager
-    methodName: ChangeCurrentPage
   - assembly: Assembly-CSharp
     fullTypeName: ShopController
     methodName: IncreaseAmount
@@ -232,21 +221,19 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1644}
     - Class: 114
-      Script: {instanceID: 1886}
+      Script: {instanceID: 1888}
     - Class: 114
-      Script: {instanceID: 1900}
+      Script: {instanceID: 1902}
     - Class: 114
-      Script: {instanceID: 1966}
+      Script: {instanceID: 1968}
     - Class: 114
-      Script: {instanceID: 2334}
+      Script: {instanceID: 2336}
     - Class: 114
-      Script: {instanceID: 2344}
+      Script: {instanceID: 2346}
     - Class: 114
-      Script: {instanceID: 2396}
+      Script: {instanceID: 2398}
     - Class: 114
-      Script: {instanceID: 2516}
-    - Class: 114
-      Script: {instanceID: 2538}
+      Script: {instanceID: 2518}
     - Class: 114
       Script: {instanceID: 2590}
     - Class: 114
@@ -438,13 +425,7 @@ ScriptsOnlyBuild:
     className: DifficultyManager
   - hash:
       serializedVersion: 2
-      Hash: 10e35913d2d3d86deb5e802ab82231d2
-    assemblyName: Assembly-CSharp.dll
-    namespaceName: 
-    className: CreditsLoader
-  - hash:
-      serializedVersion: 2
-      Hash: a0e87bcf81005b9e193537f7a56a5350
+      Hash: 3ea997008fa827c67fd26f991f4da5c2
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: UiManager
@@ -570,7 +551,7 @@ ScriptsOnlyBuild:
     className: TestResultRendererCallback
   - hash:
       serializedVersion: 2
-      Hash: 1892fc03ca9aa79d60cf3f224cd9f2f9
+      Hash: e99173a4fca73f7fba276749cf04038b
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: ShopController
@@ -919,4 +900,4 @@ ScriptsOnlyBuild:
   platform: 20
   scenePathNames:
   - Assets/Scenes/Game.unity
-  playerPath: C:/Users/cmss_/Desktop/taptap
+  playerPath: C:/Users/cmss_/Desktop/buildGit
