@@ -400,13 +400,7 @@
         392,
         393,
         394,
-        395,
-        396,
-        397,
-        398,
-        399,
-        400,
-        401
+        395
       ],
       "AllowUnexpectedOutput": true,
       "DebugActionIndex": 0
@@ -14447,106 +14441,32 @@
       "DebugActionIndex": 375
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js\"",
+      "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/Build/buildGit.framework.js",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked"
+        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.framework.js"
       ],
       "ToBuildDependencies": [
         375
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
       "DebugActionIndex": 376
     },
     {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/buildGit.framework.js.gz_chuc.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/cmss_/Desktop/buildGit/Build/buildGit.framework.js.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/buildGit.framework.js.gz_chuc.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 377
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/cmss_/Desktop/buildGit/Build/buildGit.framework.js.gz",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\buildGit.framework.js.gz_chuc.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.framework.js.unmarked",
-        "Library/Bee/artifacts/csharpactions/buildGit.framework.js.gz_chuc.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.framework.js.gz"
-      ],
-      "ToBuildDependencies": [
-        376,
-        377
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 378
-    },
-    {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\" \"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm\"",
+      "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/Build/buildGit.wasm",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked"
+        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.wasm"
       ],
       "ToBuildDependencies": [
         373
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 379
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/buildGit.wasm.gz_100b.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/cmss_/Desktop/buildGit/Build/buildGit.wasm.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/buildGit.wasm.gz_100b.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 380
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/cmss_/Desktop/buildGit/Build/buildGit.wasm.gz",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\buildGit.wasm.gz_100b.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/build/debug_WebGL_wasm/build.wasm.unmarked",
-        "Library/Bee/artifacts/csharpactions/buildGit.wasm.gz_100b.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.wasm.gz"
-      ],
-      "ToBuildDependencies": [
-        379,
-        380
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 381
+      "DebugActionIndex": 377
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/UnityLinkerToEditorData.json",
@@ -14560,7 +14480,7 @@
       "ToBuildDependencies": [
         2
       ],
-      "DebugActionIndex": 382
+      "DebugActionIndex": 378
     },
     {
       "Annotation": "CopyFiles Temp/EditorBuildOutput/MethodMap.tsv",
@@ -14574,7 +14494,7 @@
       "ToBuildDependencies": [
         3
       ],
-      "DebugActionIndex": 383
+      "DebugActionIndex": 379
     },
     {
       "Annotation": "WriteText Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info",
@@ -14585,7 +14505,7 @@
         "Library/Bee/artifacts/csharpactions/webgl.data_qnm2.info"
       ],
       "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 384
+      "DebugActionIndex": 380
     },
     {
       "Annotation": "Assemble WebGL Data Library/Bee/artifacts/WebGL/webgl.data",
@@ -14612,66 +14532,29 @@
       ],
       "ToBuildDependencies": [
         3,
-        384
+        380
       ],
       "AllowUnexpectedOutput": true,
       "Env": [],
-      "DebugActionIndex": 385
+      "DebugActionIndex": 381
     },
     {
-      "Annotation": "7z Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-      "Action": "\"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/7z.exe\" a -tgzip \"Library/Bee/artifacts/WebGL/webgl.data.unmarked\" \"Library/Bee/artifacts/WebGL/webgl.data\"",
+      "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/Build/buildGit.data",
+      "ActionType": "CopyFiles",
       "Inputs": [
         "Library/Bee/artifacts/WebGL/webgl.data"
       ],
       "Outputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked"
+        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.data"
       ],
       "ToBuildDependencies": [
-        385
+        381
       ],
-      "OverwriteOutputs": false,
-      "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 386
-    },
-    {
-      "Annotation": "WriteText Library/Bee/artifacts/csharpactions/buildGit.data.gz_jvmo.info",
-      "ActionType": "WriteTextFile",
-      "WriteTextFilePayload": "{\"System.Object\":null,\"Bee.TundraBackend.CSharpActionInvocationInformation\":{\"typeFullName\":\"WebGLPlayerBuildProgram.GzipMarker\",\"methodName\":\"Run\",\"assemblyLocation\":\"C:\\\\Program Files\\\\Unity\\\\Hub\\\\Editor\\\\2021.3.11f1\\\\Editor\\\\Data\\\\PlaybackEngines\\\\WebGLSupport\\\\WebGLPlayerBuildProgram.exe\",\"targets\":[\"C:/Users/cmss_/Desktop/buildGit/Build/buildGit.data.gz\"],\"inputs\":[\"Library/Bee/artifacts/WebGL/webgl.data.unmarked\"],\"targetDirectories\":[]}}",
-      "Inputs": [],
-      "Outputs": [
-        "Library/Bee/artifacts/csharpactions/buildGit.data.gz_jvmo.info"
-      ],
-      "AllowUnwrittenOutputFiles": true,
-      "DebugActionIndex": 387
-    },
-    {
-      "Annotation": "GzipMarker C:/Users/cmss_/Desktop/buildGit/Build/buildGit.data.gz",
-      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\Tools\\netcorerun\\netcorerun.exe\" \"C:\\Program Files\\Unity\\Hub\\Editor\\2021.3.11f1\\Editor\\Data\\PlaybackEngines\\WebGLSupport\\WebGLPlayerBuildProgram.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/Bee;C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/Tools/BuildPipeline\" invoke_static_method \"Library\\Bee\\artifacts\\csharpactions\\buildGit.data.gz_jvmo.info\"",
-      "Inputs": [
-        "Library/Bee/artifacts/WebGL/webgl.data.unmarked",
-        "Library/Bee/artifacts/csharpactions/buildGit.data.gz_jvmo.info",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/modules.asset",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.dll",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.Data.pdb",
-        "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/WebGLPlayerBuildProgram.exe"
-      ],
-      "Outputs": [
-        "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.data.gz"
-      ],
-      "ToBuildDependencies": [
-        386,
-        387
-      ],
-      "AllowUnexpectedOutput": true,
-      "Env": [],
-      "DebugActionIndex": 388
+      "DebugActionIndex": 382
     },
     {
       "Annotation": "PreprocessJS C:/Users/cmss_/Desktop/buildGit/Build/buildGit.loader.js",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/Build/buildGit.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data.gz'\" \"FRAMEWORK_FILENAME='buildGit.framework.js.gz'\" \"CODE_FILENAME='buildGit.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='UnityLoader/UnityLoader.js'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/Build/buildGit.loader.js'\"  \"locals.minifyOutput=true\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data'\" \"FRAMEWORK_FILENAME='buildGit.framework.js'\" \"CODE_FILENAME='buildGit.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
       "Inputs": [
         "UnityLoader/UnityLoader.js"
       ],
@@ -14679,11 +14562,11 @@
         "C:/Users/cmss_/Desktop/buildGit/Build/buildGit.loader.js"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 389
+      "DebugActionIndex": 383
     },
     {
       "Annotation": "PreprocessJS C:/Users/cmss_/Desktop/buildGit/index.html",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data.gz'\" \"FRAMEWORK_FILENAME='buildGit.framework.js.gz'\" \"CODE_FILENAME='buildGit.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/index.html'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data'\" \"FRAMEWORK_FILENAME='buildGit.framework.js'\" \"CODE_FILENAME='buildGit.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/index.html"
       ],
@@ -14691,7 +14574,7 @@
         "C:/Users/cmss_/Desktop/buildGit/index.html"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 390
+      "DebugActionIndex": 384
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/favicon.ico",
@@ -14702,7 +14585,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/favicon.ico"
       ],
-      "DebugActionIndex": 391
+      "DebugActionIndex": 385
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/fullscreen-button.png",
@@ -14713,7 +14596,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/fullscreen-button.png"
       ],
-      "DebugActionIndex": 392
+      "DebugActionIndex": 386
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-empty-dark.png",
@@ -14724,7 +14607,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-empty-dark.png"
       ],
-      "DebugActionIndex": 393
+      "DebugActionIndex": 387
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-empty-light.png",
@@ -14735,7 +14618,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-empty-light.png"
       ],
-      "DebugActionIndex": 394
+      "DebugActionIndex": 388
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-full-dark.png",
@@ -14746,7 +14629,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-full-dark.png"
       ],
-      "DebugActionIndex": 395
+      "DebugActionIndex": 389
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-full-light.png",
@@ -14757,11 +14640,11 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/progress-bar-full-light.png"
       ],
-      "DebugActionIndex": 396
+      "DebugActionIndex": 390
     },
     {
       "Annotation": "PreprocessJS C:/Users/cmss_/Desktop/buildGit/TemplateData/style.css",
-      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data.gz'\" \"FRAMEWORK_FILENAME='buildGit.framework.js.gz'\" \"CODE_FILENAME='buildGit.wasm.gz'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
+      "Action": "cd /d \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools\" && \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Emscripten/node/node.exe\" \"C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/Preprocess.js\"  \"locals.cwd='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools'\"  \"locals.inputPath='C\\x3a/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css'\"  \"locals.outputPath='C\\x3a/Users/cmss\\x5f/Desktop/buildGit/TemplateData/style.css'\"  \"locals.minifyOutput=false\"  \"COMPANY_NAME='CarlosGames'\" \"PRODUCT_NAME='TapTap'\" \"PRODUCT_VERSION='1.0'\" \"WIDTH=960\" \"HEIGHT=600\" \"SPLASH_SCREEN_STYLE='Dark'\" \"BACKGROUND_COLOR='\\x23000000'\" \"DATA_FILENAME='buildGit.data'\" \"FRAMEWORK_FILENAME='buildGit.framework.js'\" \"CODE_FILENAME='buildGit.wasm'\" \"MEMORY_FILENAME=''\" \"SYMBOLS_FILENAME=''\" \"BACKGROUND_FILENAME=''\" \"USE_WASM=true\" \"USE_THREADS=false\" \"USE_WEBGL_1_0=true\" \"USE_WEBGL_2_0=true\" \"USE_DATA_CACHING=true\" \"DECOMPRESSION_FALLBACK=''\" \"TOTAL_MEMORY=16777216\" \"DEVELOPMENT_PLAYER=false\" \"UNITY_VERSION='2021.3.11f1'\" \"LOADER_FILENAME='buildGit.loader.js'\"",
       "Inputs": [
         "C:/Program Files/Unity/Hub/Editor/2021.3.11f1/Editor/Data/PlaybackEngines/WebGLSupport/BuildTools/WebGLTemplates/Default/TemplateData/style.css"
       ],
@@ -14769,7 +14652,7 @@
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/style.css"
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 397
+      "DebugActionIndex": 391
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/unity-logo-dark.png",
@@ -14780,7 +14663,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/unity-logo-dark.png"
       ],
-      "DebugActionIndex": 398
+      "DebugActionIndex": 392
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/unity-logo-light.png",
@@ -14791,7 +14674,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/unity-logo-light.png"
       ],
-      "DebugActionIndex": 399
+      "DebugActionIndex": 393
     },
     {
       "Annotation": "CopyFiles C:/Users/cmss_/Desktop/buildGit/TemplateData/webgl-logo.png",
@@ -14802,7 +14685,7 @@
       "Outputs": [
         "C:/Users/cmss_/Desktop/buildGit/TemplateData/webgl-logo.png"
       ],
-      "DebugActionIndex": 400
+      "DebugActionIndex": 394
     },
     {
       "Annotation": "Player",
@@ -14813,26 +14696,26 @@
         1,
         2,
         369,
+        376,
+        377,
         378,
-        381,
+        379,
         382,
         383,
+        384,
+        385,
+        386,
+        387,
         388,
         389,
         390,
         391,
         392,
         393,
-        394,
-        395,
-        396,
-        397,
-        398,
-        399,
-        400
+        394
       ],
       "AllowUnexpectedOutput": true,
-      "DebugActionIndex": 401
+      "DebugActionIndex": 395
     }
   ],
   "FileSignatures": [
@@ -15201,7 +15084,7 @@
   ],
         "NamedNodes": {
           "all_tundra_nodes": 0,
-          "Player": 401
+          "Player": 395
         }
 ,  "DefaultNodes": [
     0
