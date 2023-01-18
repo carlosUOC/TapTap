@@ -26,6 +26,11 @@ public class PowerUpsManager : MonoBehaviour
         CreateSingleton();
         diff = GameObject.Find("DifficultyManager").GetComponent<DifficultyManager>();
         powerUpsList = gridTransform.gameObject.GetComponent<GridLayoutGroup>();
+        PlayerDataManager.Instance.PlayerData.PowerUpsCollection.StopRotating = 2;
+        PlayerDataManager.Instance.PlayerData.PowerUpsCollection.StopTranslation = 2;
+        PlayerDataManager.Instance.PlayerData.PowerUpsCollection.StopFlickering = 2;
+        PlayerDataManager.Instance.PlayerData.PowerUpsCollection.StopScaling = 2;
+        PlayerDataManager.Instance.PlayerData.PowerUpsCollection.DisableColor = 2;
     }
 
     private void CreateSingleton()

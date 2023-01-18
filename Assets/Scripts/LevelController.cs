@@ -134,141 +134,58 @@ public class LevelController : MonoBehaviour
 
     private void DifficultyLevelSettings()
     {
-        bool testing = true;
-        if(testing){
-            System.Random rnd = new System.Random();
-            ArrayList difficultiesForNewLevel = new ArrayList();
-            PropertyInfo[] listOfAvailableDifficulties = diff.CurrentStatus.GetType().GetProperties();
-            int amountOfDifficulties = 0;
 
-            if(level>5 && level<=50)
-                amountOfDifficulties = 1;
-            else if(level>50 && level<65)
-                amountOfDifficulties = 2;
-            else if(level>64)
-                amountOfDifficulties = 3;
+        ArrayList difficultiesForNewLevel = new ArrayList();
+        PropertyInfo[] listOfAvailableDifficulties = diff.CurrentStatus.GetType().GetProperties();
+        int amountOfDifficulties = 0;
 
-            int i = 0;
-            while(i<amountOfDifficulties){
-                int randomDifficultyIdex = Random.Range(0,listOfAvailableDifficulties.Length);
-                string newDifficulty = listOfAvailableDifficulties[randomDifficultyIdex].Name;
-                if(!difficultiesForNewLevel.Contains(newDifficulty)){
-                    if(!newDifficulty.Contains("Color") || (newDifficulty.Contains("Color") && !colorDifficultyAlreadySelected(ref difficultiesForNewLevel))){
-                        difficultiesForNewLevel.Add(newDifficulty);
-                        i++;
-                    }
+        if(level>5 && level<=30)
+            amountOfDifficulties = 1;
+        else if(level>30 && level<65)
+            amountOfDifficulties = 2;
+        else if(level>64)
+            amountOfDifficulties = 3;
+
+        int i = 0;
+        while(i<amountOfDifficulties){
+            int randomDifficultyIdex = Random.Range(0,listOfAvailableDifficulties.Length);
+            string newDifficulty = listOfAvailableDifficulties[randomDifficultyIdex].Name;
+            if(!difficultiesForNewLevel.Contains(newDifficulty)){
+                if(!newDifficulty.Contains("Color") || (newDifficulty.Contains("Color") && !colorDifficultyAlreadySelected(ref difficultiesForNewLevel))){
+                    difficultiesForNewLevel.Add(newDifficulty);
+                    i++;
                 }
             }
+        }
 
-            ResetDifficulties();
+        ResetDifficulties();
 
-            foreach(string newDifficulty in difficultiesForNewLevel){
-                switch(newDifficulty){
-                    case "IsRotating": diff.CurrentStatus.IsRotating = true;
-                    break;
-                    case "IsFlickering": diff.CurrentStatus.IsFlickering = true;
-                    break;
-                    case "IsSameRandomColor": diff.CurrentStatus.IsSameRandomColor = true;
-                    break;
-                    case "IsRandomColor": diff.CurrentStatus.IsRandomColor = true;
-                    break;
-                    case "IsScaling": diff.CurrentStatus.IsScaling = true;
-                    break;
-                    case "IsMovingHorizontally": diff.CurrentStatus.IsMovingHorizontally = true;
-                    break;
-                    case "IsMovingVertically": diff.CurrentStatus.IsMovingVertically = true;
-                    break;
-                    case "CurrentColor": diff.CurrentStatus.CurrentColor = Color.red;
-                    break;
-                }
-            }
-  
-        }else{
-            switch(level)
-            {
-                // El 1 es para probar las cosas nuevas
-                // case 1: diff.CurrentStatus.IsRotating = true;
-                // break;
-
-                // case 3: diff.CurrentStatus.IsRandomColor = false;
-                //         diff.CurrentStatus.IsSameRandomColor = true;
-                // break;
-
-                // case 5: diff.CurrentStatus.IsSameRandomColor = false;
-                //         diff.CurrentStatus.CurrentColor = Color.black;
-                // break;
-
-                case 6: diff.CurrentStatus.IsRotating = true;
+        foreach(string newDifficulty in difficultiesForNewLevel){
+            switch(newDifficulty){
+                case "IsRotating": diff.CurrentStatus.IsRotating = true;
                 break;
-
-                case 10: diff.CurrentStatus.IsRotating = false;
-                        diff.CurrentStatus.IsScaling = true;
+                case "IsFlickering": diff.CurrentStatus.IsFlickering = true;
                 break;
-
-                case 15: diff.CurrentStatus.IsScaling = false;
-                        diff.CurrentStatus.IsFlickering = true;
+                case "IsSameRandomColor": diff.CurrentStatus.IsSameRandomColor = true;
                 break;
-
-                case 20: diff.CurrentStatus.IsFlickering = false;
-                        diff.CurrentStatus.CurrentColor = Color.red;
+                case "IsRandomColor": diff.CurrentStatus.IsRandomColor = true;
                 break;
-
-                case 25: diff.CurrentStatus.CurrentColor = Color.white;
-                        diff.CurrentStatus.IsSameRandomColor = true;
+                case "IsScaling": diff.CurrentStatus.IsScaling = true;
                 break;
-
-                case 30: diff.CurrentStatus.IsSameRandomColor = false;
-                        diff.CurrentStatus.IsRandomColor = true;
+                case "IsMovingHorizontally": diff.CurrentStatus.IsMovingHorizontally = true;
                 break;
-
-                case 35: diff.CurrentStatus.IsRandomColor = false;
-                        diff.CurrentStatus.CurrentColor = Color.black;
+                case "IsMovingVertically": diff.CurrentStatus.IsMovingVertically = true;
                 break;
-
-                case 40: diff.CurrentStatus.CurrentColor = Color.white;
-                        diff.CurrentStatus.IsMovingHorizontally = true;
-                break;
-
-                case 45: diff.CurrentStatus.IsMovingHorizontally = false;
-                        diff.CurrentStatus.IsMovingVertically = true;
-                break;
-
-                case 50: diff.CurrentStatus.IsMovingVertically = false;
-                        diff.CurrentStatus.IsScaling = true;
-                        diff.CurrentStatus.IsFlickering = true;
-                break;
-
-                case 55: diff.CurrentStatus.IsScaling = false;
-                        diff.CurrentStatus.IsFlickering = true;
-                        
-                break;
-
-                case 60: 
-                        diff.CurrentStatus.IsSameRandomColor = true;
-                break;
-
-                case 65: diff.CurrentStatus.IsFlickering = false;
-                        diff.CurrentStatus.IsSameRandomColor = false;
-                        diff.CurrentStatus.IsRandomColor = true;
-                        diff.CurrentStatus.IsMovingHorizontally = true;
-                break;
-
-                case 70: diff.CurrentStatus.IsRandomColor = false;
-                        diff.CurrentStatus.IsMovingVertically = true;
-                break;
-
-                case 75: diff.CurrentStatus.IsRandomColor = false;
-                        diff.CurrentStatus.IsMovingHorizontally = true;
-                        diff.CurrentStatus.IsMovingVertically = true;
+                case "CurrentColor": diff.CurrentStatus.CurrentColor = Color.red;
                 break;
             }
         }
-        
+
+
         if(diff.CurrentStatus.IsSameRandomColor)
         {
-            Debug.Log("yup");
-            int i = Random.Range(0, ColorsList.colors.Length);
-            diff.CurrentStatus.CurrentColor = ColorsList.colors[i];
+            int colorIndex = Random.Range(0, ColorsList.colors.Length);
+            diff.CurrentStatus.CurrentColor = ColorsList.colors[colorIndex];
         }
     }
     //*************************************************************************

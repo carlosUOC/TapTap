@@ -25,7 +25,15 @@ public sealed class PlayerDataManager
         playerData.GamesPlayed = gameData.GamesPlayed;
         playerData.ApplesCollected = gameData.ApplesCollected;
         playerData.TimeSpent = gameData.TimeSpent;
+        // Para la demo inicia del juego
+        gameData.PowerUpsCollection.StopRotating = 2;
+        gameData.PowerUpsCollection.StopTranslation = 2;
+        gameData.PowerUpsCollection.StopFlickering = 2;
+        gameData.PowerUpsCollection.StopScaling = 2;
+        gameData.PowerUpsCollection.DisableColor = 2;
         playerData.PowerUpsCollection = gameData.PowerUpsCollection;
+
+
     }
 
     public PlayerDataMessaging UpdatePlayerData(PlayerDataMessaging gameData){
