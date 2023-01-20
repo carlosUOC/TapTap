@@ -25,6 +25,7 @@ public class GameManager : MonoBehaviour
     private float timeBonus = 3f;
     private float timePenalty = 1f;
     private PlayerDataMessaging gameData;
+    private bool tutorialAlreadyShown = false;
 
     //*************************************************************************
     //*************************************************************************
@@ -72,15 +73,20 @@ public class GameManager : MonoBehaviour
     {
         // TODO: apple animation
         // TODO: time bonus animation
-        gameData.ApplesCollected++;
-        levelController.NextLevel();
-        timer.AddSeconds(timeBonus);
+        if(isPlaying){
+            gameData.ApplesCollected++;
+            levelController.NextLevel();
+            timer.AddSeconds(timeBonus);
+        }
+        
     }
 
     public void ClickOnFruits()
     {
         // TODO: time penalty animation
-        timer.AddSeconds(-timePenalty);
+        if(isPlaying){
+            timer.AddSeconds(-timePenalty);
+        }
     }
 
     //*************************************************************************
@@ -94,6 +100,10 @@ public class GameManager : MonoBehaviour
         timer.RestartTimer();
         levelController.StartGame();
         PowerUpsManager.Instance.UpdatePowerUpsOnPlayGame();
+        if(!tutorialAlreadyShown){
+            PauseGame();
+            tutorialAlreadyShown = true;
+        }
     }
 
     public void PauseGame()
