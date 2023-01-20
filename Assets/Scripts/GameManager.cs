@@ -22,7 +22,7 @@ public class GameManager : MonoBehaviour
 
     // Attributes
     private bool isPlaying;
-    private float timeBonus = 3f;
+    private float timeBonus = 2f;
     private float timePenalty = 1f;
     private PlayerDataMessaging gameData;
     private bool tutorialAlreadyShown = false;

@@ -45742,6 +45742,8 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	float ___timePenalty_9;
 	// PlayerDataMessaging GameManager::gameData
 	PlayerDataMessaging_t7017045FCDEB35A0316C08CED9CD7DC937E7C066* ___gameData_10;
+	// System.Boolean GameManager::tutorialAlreadyShown
+	bool ___tutorialAlreadyShown_11;
 };
 
 struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields

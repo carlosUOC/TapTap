@@ -6223,6 +6223,8 @@ struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6  : public MonoBehav
 	float ___timePenalty_9;
 	// PlayerDataMessaging GameManager::gameData
 	PlayerDataMessaging_t7017045FCDEB35A0316C08CED9CD7DC937E7C066* ___gameData_10;
+	// System.Boolean GameManager::tutorialAlreadyShown
+	bool ___tutorialAlreadyShown_11;
 };
 
 struct GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields
@@ -6928,9 +6930,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3211[11] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3212[5] = 
 {
 	static_cast<int32_t>(offsetof(FruitsGridConfig_t8ADD00E247E706686A597D4D515CAAC156DE9762, ___grid_4)),static_cast<int32_t>(offsetof(FruitsGridConfig_t8ADD00E247E706686A597D4D515CAAC156DE9762, ___screenWidth_5)),static_cast<int32_t>(offsetof(FruitsGridConfig_t8ADD00E247E706686A597D4D515CAAC156DE9762, ___gridPadding_6)),static_cast<int32_t>(offsetof(FruitsGridConfig_t8ADD00E247E706686A597D4D515CAAC156DE9762, ___gridSpacing_7)),static_cast<int32_t>(offsetof(FruitsGridConfig_t8ADD00E247E706686A597D4D515CAAC156DE9762, ___gridCellSize_8)),};
-IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3213[7] = 
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3213[8] = 
 {
-	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields, ___instance_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___levelController_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timer_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___isPlaying_7)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timeBonus_8)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timePenalty_9)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___gameData_10)),};
+	static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6_StaticFields, ___instance_4)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___levelController_5)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timer_6)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___isPlaying_7)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timeBonus_8)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___timePenalty_9)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___gameData_10)),static_cast<int32_t>(offsetof(GameManager_tFE129A0017AF5BBD30FDCD4403B9CCEAE064C6B6, ___tutorialAlreadyShown_11)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable3214[9] = 
 {
 	static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640_StaticFields, ___instance_4)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___level_5)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___levelText_6)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___apple_7)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___fruits_8)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___grid_9)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___gridConfig_10)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___numRow_11)),static_cast<int32_t>(offsetof(LevelController_t509E7CB90C17A4D233A7564A3857D3FE82ED1640, ___diff_12)),};

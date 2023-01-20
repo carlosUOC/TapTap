@@ -134,6 +134,12 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnButtonHomeFromGameOver
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: Assembly-CSharp
+    fullTypeName: GameManager
+    methodName: ResumeGame
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnButtonPlayAgainClicked
