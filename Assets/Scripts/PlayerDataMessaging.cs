@@ -15,7 +15,7 @@ public class PlayerDataMessaging
     public PlayerDataMessaging(){
         maxLevel = 0;
         timeSpent = 0;
-        applesCollected = 0;
+        applesCollected = 300;
         gamesPlayed = 0;
         powerUpsCollection = new PowerUpsCollection();
     }

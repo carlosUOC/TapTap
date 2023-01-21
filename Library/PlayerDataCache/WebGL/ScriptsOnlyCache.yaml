@@ -137,6 +137,9 @@ ScriptsOnlyBuild:
   - assembly: UnityEngine.CoreModule
     fullTypeName: UnityEngine.GameObject
     methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: GameManager
     methodName: ResumeGame
@@ -155,12 +158,21 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnBackToMainMenu
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnButtonShopFromGameOver
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: ChangeCurrentPage
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: OnButtonCancelExitGameClicked
@@ -173,6 +185,18 @@ ScriptsOnlyBuild:
   - assembly: Assembly-CSharp
     fullTypeName: ShopController
     methodName: IncreaseAmount
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.GameObject
+    methodName: SetActive
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
+  - assembly: UnityEngine.CoreModule
+    fullTypeName: UnityEngine.Behaviour
+    methodName: set_enabled
   - assembly: Assembly-CSharp
     fullTypeName: UiManager
     methodName: ChangeCurrentPage
